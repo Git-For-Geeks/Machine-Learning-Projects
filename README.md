@@ -12,6 +12,9 @@ Git-For-Geeks in as open source contribution event conducted by Geeks-for-Geeks 
 
 Create your own Machine Learning projects and upload them here!
 
+You can refer a sample project from [here](https://github.com/hrsh22/Exoplanet-hunting-Machine-Learning) to get the rough idea.
+
+
 ## *****How to contribute?*****
 
 - Clone the Repository.

@@ -4,7 +4,6 @@
 
 The objective of this excercise is to detect whether a plant leaf is healthy or unhealthy by utilising classical Machine Learning algorithms and pre-processing the data using Image Processing.
 
-
 ## STEPS TO DO 
 
 1) Load Original Image from `dataset/train/`
@@ -69,3 +68,9 @@ An accuracy of 97% is achieved using Randomm Forest Classifier.
    Horizontal Resolution            :  96 dpi.
    Vertical Resolution              :  96 dpi.
    Bit Depth                        :  24.
+
+## NOTE
+
+- The codes must have comments to explain them. Simply copy pasting is not allowed.
+- If you are following a Youtube video or referring another project, make sure you do some changes and not submit the exact code.
+- Explain the procedure to run the files locally in the Readme file.

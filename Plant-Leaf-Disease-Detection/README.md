@@ -26,17 +26,17 @@ Global features should be extracted from the image using three feature descripto
    •	Shape : Hu Moments, Zernike Moments
    •	Texture : Haralick Texture, Local Binary Patterns (LBP)
 
-After extracting the feature of images, the features should be stacked together using numpy function  “np.stack”.
+   After extracting the feature of images, the features should be stacked together using numpy function  “np.stack”.
 
-According to the images situated in the folder the labels should be encoded in numeric format for better understanding of the machine.
+   According to the images situated in the folder the labels should be encoded in numeric format for better understanding of the machine.
 
-The Dataset should be splitted into training and testing set with the ratio of 80/20 respectively.
+   The Dataset should be splitted into training and testing set with the ratio of 80/20 respectively.
 
 6) Feature Scaling
 Feature Scaling is a technique to standardize the independent features present in the data in a fixed range. It is performed during the data pre-processing to handle highly varying magnitudes or values or units. If feature scaling is not done, then a machine learning algorithm tends to weigh greater values, higher and consider smaller values as the lower values, regardless of the unit of the values. 
 
-Here, we should use Min-Max Scaler.
-This scaling brings the value between 0 and 1.
+   Here, we should use Min-Max Scaler.
+   This scaling brings the value between 0 and 1.
 
 7) Saving the Features.
 After features are extracted from the images they are saved in HDF5 file. The Hierarchical Data Format version 5 (HDF5), is an open source file format that supports large, complex, heterogeneous data. HDF5 uses a "file directory" like structure that allows you to organize data within the file in many different structured ways, as you might do with files on your computer.
@@ -45,27 +45,39 @@ After features are extracted from the images they are saved in HDF5 file. The Hi
 The Model has to be trained over 7 machine learning models named : 
 
    •	Logistic Regression 
+   
    •	Linear Discriminant  Analysis
+   
    •	K Nearest  Neighbours
+   
    •	Decision Trees
+   
    •	Random Forest
+   
    •	Naïve Bayes
+   
    •	Support Vector Machine 
 
-9 ) Prediction 
+9) Prediction 
 The models with best performance is them trained with whole of the dataset and score for testing set is predicted using Predict function.
 
-An accuracy of 97% is achieved using Randomm Forest Classifier.
+   An accuracy of 97% is achieved using Randomm Forest Classifier.
 
 
 ## PROPERTIES OF IMAGES
 
    Type of File                     :  JPG File.
+   
    Dimensions                       :  256 * 256.
+   
    Width                            :  256 Pixels.
+   
    Height                           :  256 Pixels.
+   
    Horizontal Resolution            :  96 dpi.
+   
    Vertical Resolution              :  96 dpi.
+   
    Bit Depth                        :  24.
 
 ## NOTE

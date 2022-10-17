@@ -2,11 +2,11 @@
 
 ## Exercise
 
-The objective of this excercise is to detect whether a plant leaf is healthy or unhealthy by utilising classical Machine Learning algorithms and pre-processing the data using Image Processing.
+The objective of this excercise is to detect whether a plant leaf is healthy or unhealthy by utilizing classical Machine Learning algorithms and pre-processing the data using Image Processing.
 
 ## STEPS TO DO 
 
-1) Load Original Image from `dataset/train/`
+1) Load Original Images from `dataset/train/`
 A total of 800 images for each class Diseased and Healthy is fed for the machine.
 
 2) Conversion of image from RGB to BGR.
@@ -29,7 +29,6 @@ Global features should be extracted from the image using three feature descripto
 After extracting the feature of images, the features should be stacked together using numpy function  “np.stack”.
 
 According to the images situated in the folder the labels should be encoded in numeric format for better understanding of the machine.
-
 
 The Dataset should be splitted into training and testing set with the ratio of 80/20 respectively.
 

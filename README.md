@@ -18,7 +18,8 @@ You can also refer a sample project from [here](https://github.com/hrsh22/Exopla
 
 ## *****How to contribute?*****
 
-- Clone the Repository.
+- Clone this Repository.
+- Fork the cloned repository.
 - Choose a topic on which you want to make the project. You are also encouraged to make project on new topics.
 - Create an issue telling us about the project and wait for the maintainer to assign you.
 - After the issue is assigned to you, add your project in your respective folder along with proper explanation in the Readme file.

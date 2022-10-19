@@ -8,7 +8,7 @@ Git-For-Geeks in as open source contribution event conducted by Geeks-for-Geeks 
 
 - Use this project to make your first contribution to an open source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
 - Celebrate Git-For-Geeks by getting involved in the open source community and completing some simple tasks in this project.
-- This repository is open to all members of the GitHub community. Anyone can contribute to this project.
+- This repository is open to all members who have registered for Git-For-Geeks event.
 
 # Machine Learning Projects
 
